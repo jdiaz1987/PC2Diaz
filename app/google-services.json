@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "903074341470",
-    "project_id": "esandpa2023",
-    "storage_bucket": "esandpa2023.appspot.com"
+    "project_number": "806931037995",
+    "project_id": "esandpa20100658",
+    "storage_bucket": "esandpa20100658.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:903074341470:android:faed8d7706615137928acf",
+        "mobilesdk_app_id": "1:806931037995:android:860687202bf793362bcf6e",
         "android_client_info": {
           "package_name": "com.example.s9dpafirebase"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCAsh4bxxYuXR_4k16HFszm1YqRfgVsyp4"
+          "current_key": "AIzaSyA9NHjRdwXkrfTznbAEAmvv_YhJznC_CGk"
         }
       ],
       "services": {
