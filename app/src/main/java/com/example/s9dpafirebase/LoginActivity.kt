@@ -38,7 +38,7 @@ class LoginActivity : AppCompatActivity() {
         }
 
         txtCreateAccount.setOnClickListener{
-            startActivity(Intent(this,PrincipalActivity::class.java))
+            startActivity(Intent(this,RegistroUserActivity::class.java))
         }
 
 
