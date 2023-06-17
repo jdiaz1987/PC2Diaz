@@ -26,7 +26,7 @@ class RegistroFragment : Fragment() {
         val txtNota: EditText = view.findViewById(R.id.txtNota)
         val btnGuardarCurso: Button = view.findViewById(R.id.btnGuardarCurso)
         val db = FirebaseFirestore.getInstance()
-        val collectionRef = db.collection("course")
+        val collectionRef = db.collection("courses")
 //        val auth = FirebaseAuth.getInstance()
 
         btnGuardarCurso.setOnClickListener {

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth
 
@@ -17,6 +18,7 @@ class LoginActivity : AppCompatActivity() {
         val txtEmail = findViewById<EditText>(R.id.txtEmail)
         val txtPassword = findViewById<EditText>(R.id.txtPassword)
         val btnLogin = findViewById<Button>(R.id.btnLogin)
+        val txtCreateAccount = findViewById<TextView>(R.id.txtCreateAccount)
 
         btnLogin.setOnClickListener{
             val correo = txtEmail.text.toString()
@@ -34,6 +36,11 @@ class LoginActivity : AppCompatActivity() {
                     }
                 }
         }
+
+        txtCreateAccount.setOnClickListener{
+            startActivity(Intent(this,PrincipalActivity::class.java))
+        }
+
 
     }
 }

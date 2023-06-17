@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">S9DPAFirebase</string>
     <string name="valbtnlogin">LOGIN</string>
+    <string name="valtxtnoaccount">No Account?</string>
+    <string name="valtxtcreateaccount">Create one.</string>
+    <string name="valtxtemail">Email Address</string>
+    <string name="valtxtpassword">Password</string>
+    <string name="valtxtfullname">Full Name</string>
+    <string name="valbtnregister">REGISTER</string>
     <string name="title_activity_principal">PrincipalActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
